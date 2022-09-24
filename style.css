@@ -1,0 +1,134 @@
+p {
+  max-width: 45ch;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  width: fit-content;
+  margin: auto;
+}
+
+.card-header.card-image {
+  display: block;
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+  transition: 300ms transform ease-in-out;
+}
+
+.card:hover>.card-header .card-image {
+  transform: scale(1.5);
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.card {
+  font-family:'Inter', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  text-decoration: none;
+  background: black;
+  -padding: 1rem;
+  overflow: hidden;
+  max-width: 400px;
+  min-width: none;
+  border-radius: .25rem;
+  border: none;
+  box-shadow: 0 6px 10px 0 rgba(14, 14, 14, 0.6)
+color: white;
+text-align: center;
+}
+
+
+.card-header {
+  padding: 0;
+  padding-bottom: 0%;
+  font-size: 1.9rem;
+  margin: 0rem;
+  color: white;
+}
+
+.card-header.card-image {
+  overflow: hidden;
+}
+
+.card-header.card-image {
+  display: block;
+  width: 100%;
+  max-height: 300px;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card:hover {
+  box-shadow: 0 10px 26px 0 rgb(9, 9, 9);
+}
+
+.card:hover>.card-header.card-image> {
+  transform: scale(1.5);
+}
+
+.card-heading {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Merriweather', serif;
+  font-size: 1.2rem;
+  color: red;
+  padding: red;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+.card-body {
+  font-size: .9rem;
+  padding: black;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  
+}
+
+.card-footer {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  margin-left: 1rem;
+  padding-top: 0;
+}
+
+.btn {
+  background: rgb(10, 4, 10);
+  color: white;
+  border: none;
+  font-size: 0.8rem;
+  padding: .4rem .60rem;
+  border-radius: .25em;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background: #95a1af;
+  color: red;
+}
+
+.btn.btn-outline {
+  background: none;
+  border: 1px solid #161717;
+  padding: .45rem;
+}
+
+.btn.btn-outline:hover,
+.btn .btn-outline:focus {
+  background: #313334;
+  color: red;
+}
+
+.btn+.btn {
+  margin-left: .20rem;
+}
