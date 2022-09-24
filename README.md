@@ -1,4 +1,5 @@
 # cpnt260-a2
 
 ## Code credits
-web dev simplified card html css
+https://www.youtube.com/watch?v=h2x4YTI6WeE
+
